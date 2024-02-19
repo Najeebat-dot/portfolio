@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "GeneralSans-Regular";
+  src: url("./../fonts/GeneralSans-Regular.woff") format("woff");
+  /* Add more src declarations for other formats if necessary */
+  /* You can also specify font-weight and font-style if needed */
+}
+
+body {
+  font-family: "GeneralSans-Regular", sans-serif; /* Use the imported font */
+}
